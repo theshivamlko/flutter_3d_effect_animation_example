@@ -14,6 +14,12 @@ class _PagerViewState extends State<PagerView> {
   List list = [
     {
       "backgroundImage":
+      "https://c4.wallpaperflare.com/wallpaper/979/532/21/video-games-landscape-dauntless-videogame-trees-wallpaper-preview.jpg",
+      "hoverImage":
+      "assets/character1.png",
+    },
+    {
+      "backgroundImage":
           "https://c4.wallpaperflare.com/wallpaper/565/570/570/among-trees-video-game-art-forest-trees-river-hd-wallpaper-preview.jpg",
       "hoverImage":
           "assets/character2.png",
@@ -25,12 +31,7 @@ class _PagerViewState extends State<PagerView> {
           "assets/character3.png",
     },
 
-    {
-      "backgroundImage":
-      "https://c4.wallpaperflare.com/wallpaper/979/532/21/video-games-landscape-dauntless-videogame-trees-wallpaper-preview.jpg",
-      "hoverImage":
-      "assets/character1.png",
-    },
+
   ];
 
   @override
