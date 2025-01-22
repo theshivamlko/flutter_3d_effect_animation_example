@@ -1,4 +1,4 @@
-# flutter_3d_effect_animation_example
+# Flutter 3D Effect Animation Example
 
 A new Flutter project.
 
