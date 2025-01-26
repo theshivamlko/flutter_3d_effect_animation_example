@@ -42,7 +42,6 @@ class _CarditemState extends State<Carditem> {
                 duration: Duration(milliseconds: time),
                 curve: Curves.decelerate,
                 transform: Matrix4.rotationX(_isRotated ? math.pi / -3.5 : 0),
-                // 30 degrees in radians
                 transformAlignment: Alignment.center,
                 child: TweenAnimationBuilder<double>(
                     tween: Tween<double>(
@@ -80,7 +79,7 @@ class _CarditemState extends State<Carditem> {
                                 : BoxShadow(),
                             _isRotated
                                 ? BoxShadow(
-                                    color: Colors.black.withAlpha(120),
+                                       color: Colors.black.withAlpha(120),
                                     spreadRadius: _isRotated ? 0 : 1,
                                     blurRadius: _isRotated ? 8 : 1,
                                     offset: Offset(-4, 30),
